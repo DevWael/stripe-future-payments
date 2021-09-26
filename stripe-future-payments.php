@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Stripe Future Payments
- * Plugin URI: https://github.com/devwael
+ * Plugin URI: https://github.com/DevWael/stripe-future-payments
  * Description: Capture credit card payments later on order completion
  * Author: Ahmad Wael
  * Author URI: https://github.com/devwael
