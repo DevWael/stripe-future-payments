@@ -24,6 +24,10 @@ add_action(
 	20
 );
 
+/**
+ * Force save the source so we can change the card later.
+ */
+add_filter( 'wc_stripe_force_save_source', '__return_true' );
 
 add_action( 'woocommerce_order_status_completed', 'sfp_order_release_payment' );
 /**
